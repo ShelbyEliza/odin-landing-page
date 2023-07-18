@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,400;0,800;1,100;1,400&family=Poppins:ital,wght@0,100;0,200;0,400;0,600;1,100;1,200;1,400&display=swap");
+
+:root {
+	--midnight-express: #1f2937;
+	--doctor: #f9faf8;
+	--placebo: #e5e7eb;
+	--pool-water: #3882f6;
+}
+
+html,
+body {
+	height: 100vh;
+	margin: 0 auto;
+	font-size: 16px;
+}
+
+body {
+	font-family: "Kanit", sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: violet;
+	text-decoration: none;
+	font-size: 24px;
+}
+a:hover {
+	color: var(--placebo);
+}
+
+p {
+	font-family: "Poppins", sans-serif;
+}
+
+button {
+	background-color: var(--pool-water);
+	color: var(--doctor);
+	border-radius: 8px;
+	border: none;
+	padding: 8px 16px;
+	font-weight: 600;
+}
+
+.header,
+.footer {
+	background-color: var(--midnight-express);
+	color: var(--doctor);
+}
+
+.header {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	/* border: 1px solid rgb(198, 155, 198); */
+}
+.nav {
+	display: flex;
+	margin: 0% 10rem;
+	/* border: 1px solid rgb(155, 196, 198); */
+	justify-content: space-between;
+	margin-bottom: 1.5rem;
+}
+.nav-links {
+	display: flex;
+	gap: 0.5rem;
+	align-items: center;
+}
+
+.hero-container {
+	margin: 0% 10rem;
+	display: flex;
+	margin-bottom: 1.5rem;
+}
+.left-hero {
+	width: 50%;
+}
+.hero-img {
+	width: 50%;
+	background-color: violet;
+	border-radius: 0.8rem;
+}
+
+.central-container {
+	text-align: center;
+}
+.img-container {
+	margin: 0.8rem 10rem;
+
+	display: flex;
+}
+
+figure {
+	border-radius: 0.8rem;
+
+	width: 100px;
+	height: 100px;
+	border: 3px solid var(--pool-water);
+}
+
+.quote-content {
+	background-color: var(--placebo);
+	font-size: 36px;
+	font-style: italic;
+	font-weight: 200;
+	padding: 0.8rem 10rem;
+}
+.quote-cred {
+	font-weight: 600;
+}
+
+.call-to-action-container {
+	background-color: var(--pool-water);
+	margin: 1rem 10rem;
+	border-radius: 0.8rem;
+	color: var(--doctor);
+	padding: 1rem 2rem;
+}
+.btn-outline {
+	border: 1px solid var(--doctor);
+}
+.footer {
+	width: 100%;
+	text-align: center;
+	padding: 1rem;
+}
